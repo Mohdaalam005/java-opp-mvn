@@ -12,6 +12,7 @@ public class DemoLIst {
         list.add(4);
         list.add(2);
         list.add(2);
+        list.add(1) ;
 
         System.out.println(list);
 
@@ -26,6 +27,16 @@ public class DemoLIst {
         linkedList.add(6);
         linkedList.addFirst(1);
         System.out.println(linkedList);
+
+        MyCustomList<Integer> myCustomList = new MyCustomList<>();
+        myCustomList.addElement(12);
+        myCustomList.addElement(34);
+        myCustomList.removeElement(34);
+        myCustomList.get(0) ;
+
+
+
+
 
     }
 
