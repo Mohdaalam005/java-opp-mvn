@@ -13,10 +13,11 @@ public class DemoLIst {
         list.add(2);
         list.add(2);
         list.add(1) ;
-
+        //
         System.out.println(list);
 
-        LinkedList<Integer> linkedList = new LinkedList<>( );
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
 
         linkedList.add(2);
         linkedList.add(3);
@@ -33,6 +34,7 @@ public class DemoLIst {
         myCustomList.addElement(34);
         myCustomList.removeElement(34);
         myCustomList.get(0) ;
+        System.out.println(myCustomList);
 
 
 
