@@ -9,12 +9,12 @@ public class MyCustomList<T> {
 
     public void addElement(T element) {
         list.add(element);
-        System.out.println(list);
+//        System.out.println(list);
     }
 
     public void removeElement(T element) {
         list.remove(element);
-        System.out.println(list);
+//        System.out.println(list);
     }
     public String toString(){
         return  list.toString() ;
