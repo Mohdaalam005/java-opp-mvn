@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class DemoSet {
     public static void main(String[] args) {
-        Set<Integer>  set = new HashSet<>();
+        Set<Object> set = new HashSet<>();
 
         set.add(3);
         set.add(2);
@@ -17,9 +17,10 @@ public class DemoSet {
         set.add(4);
         set.add(5);
         set.add(7);
+        System.out.println(set.toArray());
 
-        List<Integer> list = new ArrayList<>(set) ;
 
-        System.out.println(list.get(5));
+
+
     }
 }

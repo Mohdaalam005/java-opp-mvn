@@ -49,7 +49,10 @@ public class Main {
 
         MySet<Double> set1 = new MySet<>();
         set1.addSet(5d);
-        System.out.println(set1);
+        System.out.println(set1) ;
+
+
+
 
 
     }
