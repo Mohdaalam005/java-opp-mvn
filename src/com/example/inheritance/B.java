@@ -9,6 +9,13 @@ public class B  extends  A{
 
 
         }
+        public void addNumber(int ... a){
+        int sum = 0 ;
+        for(int total : a){
+            sum += total ;
+        }
+            System.out.println(sum);
+        }
 
 
 
